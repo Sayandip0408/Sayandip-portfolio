@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+
+@media (max-width: 1085px) {
+    .floating-div1 {
+        left: 5vw;
+    }
+
+    .floating-div2 {
+        right: 5vw;
+    }
+
+    #about .main-about {
+        padding: 2vw 10vw;
+    }
+
+    #about .main-about h1 {
+        text-align: left;
+    }
+
+    #project-div {
+        padding: 2vw 10vw;
+    }
+}
+
+@media (max-width: 910px) {
+    #nav-social-links {
+        display: none;
+    }
+}
+
+@media (max-width: 805px) {
+    .floating-div1 {
+        left: 0vw;
+    }
+
+    .floating-div2 {
+        right: 0vw;
+    }
+
+    #about {
+        padding: 5vw 5vw;
+    }
+
+    #about h1 {
+        font-size: 3rem;
+    }
+
+    #about .main-about {
+        padding: 2vw 5vw;
+    }
+
+    #about .main-about h1 {
+        font-size: 2rem;
+    }
+
+    #about .main-about .p {
+        font-size: 1.1rem;
+    }
+
+    #about .main-about p {
+        font-size: 1rem;
+    }
+
+    #about .main-about p span {
+        font-size: 1rem;
+    }
+
+    #project-div {
+        padding: 5vw 5vw;
+    }
+
+    #project h1 {
+        font-size: 3rem;
+    }
+
+    #contact h1 {
+        font-size: 3rem;
+    }
+
+    #contact-form input {
+        width: 95%;
+    }
+
+    #contact-form textarea {
+        width: 95%;
+    }
+}
+
+@media (max-width: 680px) {
+    nav {
+        justify-content: space-between;
+    }
+
+    #nav-btn-logo {
+        display: none;
+    }
+
+    #nav-btn-logo-long {
+        display: block;
+        height: fit-content;
+        width: fit-content;
+        border-radius: 25px;
+        padding: 8px;
+        background-color: white;
+        border: none;
+        font-size: 15px;
+        font-weight: 600;
+        background-color: #2f3640;
+        color: rgb(200, 200, 200);
+        font-family: 'Mochiy Pop One', sans-serif;
+        margin-left: 5vw;
+    }
+
+    #nav-btn-logo-long span {
+        color: white;
+    }
+
+    #nav-links {
+        display: none;
+    }
+
+    #menu-btn {
+        display: block;
+        height: 35px;
+        width: 35px;
+        font-size: 18px;
+        background-color: transparent;
+        border: 1px solid rgb(200, 200, 200);
+        border-radius: 3px;
+        color: rgb(200, 200, 200);
+        margin-right: 5vw;
+    }
+
+    #menu-btn:hover {
+        background-color: #404040;
+        cursor: pointer;
+    }
+
+    #mob-nav {
+        animation-name: nav;
+        animation-duration: 500ms;
+    }
+
+    @keyframes nav {
+        from {
+            height: 0px;
+        }
+
+        to {
+            height: 95px;
+        }
+    }
+
+    #mob-nav div {
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #mob-nav div a {
+        color: rgb(211, 211, 211);
+        font-size: 17px;
+        margin: 0 5px;
+        text-decoration: none;
+        font-family: 'Open Sans', sans-serif;
+
+    }
+
+    #mob-nav .social-links {
+        justify-content: center;
+    }
+
+    #mob-nav .social-links a {
+        font-size: 25px;
+        margin: 0 10px;
+    }
+
+    #mob-nav div a:hover {
+        color: white;
+    }
+
+    .first-sec {
+        margin-top: 50px;
+    }
+
+    .my-image {
+        height: 130px;
+        width: 130px;
+    }
+
+    .first-sec h1 {
+        font-size: 25px;
+    }
+
+    .first-sec p {
+        font-size: 13px;
+    }
+
+    #tagline {
+        font-size: 40px;
+    }
+
+    #intro {
+        font-size: 14px;
+        width: 80vw;
+    }
+
+    .floating-div1 {
+        font-size: 10px;
+    }
+
+    .floating-div2 {
+        font-size: 10px;
+    }
+
+    .bn632-hover {
+        width: 130px;
+        font-size: 13px;
+        font-weight: 500;
+        color: #fff;
+        cursor: pointer;
+        margin: 20px;
+        height: 45px;
+        text-align: center;
+        border: none;
+        background-size: 300% 100%;
+        border-radius: 50px;
+        moz-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+    }
+}
+
+@media (max-width:560px) {
+    #tagline {
+        font-size: 50px;
+        margin-top: 80px;
+    }
+
+    .floating-div1 {
+        top: -50px;
+    }
+
+    .floating-div2 {
+        top: -50px;
+    }
+
+    .button-74 {
+        font-size: 15px;
+        padding: 0 15px;
+        line-height: 35px;
+    }
+
+    #about h1 {
+        font-size: 2.3rem;
+    }
+
+    #about .main-about {
+        padding: 2vw 2vw;
+    }
+
+    #about .main-about h1 {
+        font-size: 1.7rem;
+    }
+
+    #about .main-about p {
+        font-size: 0.9rem;
+    }
+
+    #about .main-about .p {
+        font-size: 1.2rem;
+    }
+
+    .main-about h3 {
+        font-size: 0.9rem;
+    }
+
+    #about .main-about p span {
+        font-size: 0.9rem;
+    }
+
+    #project-div {
+        padding: 2vw 2vw;
+    }
+
+    #project h1 {
+        font-size: 2rem;
+    }
+
+    .project-heading {
+        font-size: 1.5rem;
+    }
+
+    .project-desc {
+        font-size: 0.9rem;
+    }
+
+    .project-details {
+        font-size: 0.9rem;
+    }
+
+    #contact h1 {
+        font-size: 2rem;
+    }
+
+    #contact-form {
+        width: 80vw;
+    }
+
+    #contact-form input {
+        font-size: 1rem;
+    }
+
+    #contact-form textarea {
+        font-size: 1rem;
+    }
+
+    #footer #footerSocialLinks a {
+        height: 55px;
+        width: 55px;
+        font-size: 25px;
+    }
+
+    #footer h1 {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:480px) {
+    #tagline {
+        font-size: 35px;
+    }
+
+    .floating-div-icon1 {
+        right: 50px;
+        top: -25px;
+    }
+
+    .floating-div-icon2 {
+        left: 50px;
+        top: -25px;
+    }
+
+    .main-about h3 {
+        font-size: 0.8rem;
+        font-weight: 100;
+    }
+
+    .project-heading {
+        text-align: left;
+        font-size: 1.3rem;
+    }
+
+    #contact-form input {
+        font-size: 0.8rem;
+    }
+
+    #contact-form textarea {
+        font-size: 0.8rem;
+    }
+
+    #contact-form button {
+        height: 35px;
+        font-size: 0.9rem;
+    }
+
+    #footer h1 {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width:375px) {
+    #tagline {
+        font-size: 33px;
+    }
+
+}

@@ -1,0 +1,562 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    background-image: radial-gradient(#1a1a1a, black);
+}
+
+nav {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-btn-logo {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#nav-btn-logo-long {
+    display: none;
+}
+
+.nav-links {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-links a {
+    color: rgb(211, 211, 211);
+    display: inline-block;
+    padding: 10px;
+    margin: 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#nav-links a:hover {
+    color: white;
+}
+
+#menu-btn {
+    display: none;
+}
+
+.nav-social-links {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-social-links a {
+    color: rgb(211, 211, 211);
+    display: inline-block;
+    margin: 10px;
+    font-size: 20px;
+}
+
+#nav-social-links a:hover {
+    color: white;
+}
+
+#mob-nav {
+    display: none;
+}
+
+.first-sec {
+    text-align: center;
+    padding: 3vw;
+}
+
+.my-image {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: white;
+    margin: auto;
+    background-image: url('./my-img-2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.first-sec h1 {
+    text-transform: capitalize;
+    color: white;
+    font-family: 'Uchen', serif;
+    font-size: 40px;
+}
+
+.first-sec p {
+    text-transform: capitalize;
+    color: rgb(211, 211, 211);
+    font-family: 'Uchen', serif;
+    font-size: 15px;
+}
+
+.tag {
+    position: relative;
+}
+
+#tagline {
+    text-transform: capitalize;
+    color: white;
+    font-family: 'Uchen', serif;
+    font-size: 65px;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 40px;
+}
+
+#intro {
+    text-transform: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    width: 60vw;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.floating-div1 {
+    height: fit-content;
+    width: fit-content;
+    background-color: #3f4451;
+    padding: 10px;
+    color: #afb1b6;
+    position: absolute;
+    top: 0;
+    left: 15vw;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.floating-div-icon1 {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    font-size: 20px;
+    color: #3f4451;
+}
+
+.floating-div2 {
+    height: fit-content;
+    width: fit-content;
+    background-color: #3f4451;
+    padding: 10px;
+    color: #afb1b6;
+    position: absolute;
+    top: 0;
+    right: 15vw;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.floating-div-icon2 {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    font-size: 20px;
+    color: #3f4451;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+#about {
+    padding: 3vw 8vw;
+}
+
+#about h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+#about .main-about {
+    width: 70vw;
+    margin: auto;
+    margin-top: 20px;
+    padding: 2vw 15vw;
+}
+
+#about .main-about h1 {
+    font-size: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    text-align: justify;
+}
+
+#about .main-about .p {
+    font-weight: bolder;
+    font-size: 1.5rem;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+#about .main-about p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#about .main-about p span {
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.progress {
+    height: 5px;
+    width: 100%;
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.progress .bar {
+    height: 5px;
+    border-radius: 10px;
+}
+
+
+#cpp {
+    background-color: #3498db;
+    width: 95%;
+}
+
+
+#html {
+    background-color: #e67e22;
+    width: 93%;
+}
+
+#js {
+    background-color: #f1c40f;
+    width: 80%;
+}
+
+#react {
+    background-color: #48dbfb;
+    width: 75%;
+}
+
+#python {
+    background-color: #40739e;
+    width: 70%;
+}
+
+#ds {
+    background-color: #2ecc71;
+    width: 90%;
+}
+
+#oop {
+    background-color: #e74c3c;
+    width: 87%;
+}
+
+#sql {
+    background-color: #2c3e50;
+    width: 90%;
+}
+
+.col {
+    background-color: white;
+}
+
+body[data-aos-duration='1000'] [data-aos],
+[data-aos][data-aos][data-aos-duration='1000'] {
+    transition-duration: 1000ms;
+}
+
+.main-about h3 {
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.main-about p a {
+    color: black;
+}
+
+#project {
+    padding: 3vw 8vw;
+}
+
+#project h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    text-transform: uppercase;
+
+}
+
+#project-div {
+    width: 70vw;
+    margin: auto;
+    margin-top: 20px;
+    padding: 2vw 15vw;
+}
+
+#project-div .project-cls {
+    height: fit-content;
+    margin: 30px 0;
+}
+
+.project-heading {
+    font-size: 1.7rem;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bolder;
+    margin: 5px 0;
+    text-align: justify;
+}
+
+#project-div .project-more {
+    font-size: 15px;
+}
+
+.project-desc {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    margin: 5px 0;
+    text-align: justify;
+}
+
+.project-desc a {
+    color: #e74c3c;
+    text-align: justify;
+    text-decoration: none;
+}
+
+.project-heading a {
+    color: #e74c3c;
+    text-align: justify;
+    text-decoration: none;
+}
+
+.project-details {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+#contact {
+    padding: 3vw 8vw;
+}
+
+#contact h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+#contact-form {
+    width: 70vw;
+    margin: auto;
+    /* border: 1px solid black; */
+    padding: 3vw;
+}
+
+#contact-form input {
+    width: 80%;
+    height: 50px;
+    font-size: 1.1rem;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    background-color: #e7e7e7;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+#contact-form input:focus {
+    outline: none;
+}
+
+#contact-form textarea {
+    width: 80%;
+    display: block;
+    margin: auto;
+    height: 100px;
+    font-size: 1.1rem;
+    padding: 10px 10px;
+    background-color: #e7e7e7;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#contact-form textarea:focus {
+    outline: none;
+}
+
+#contact-form button {
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    font-size: 1.2rem;
+    display: block;
+    margin: auto;
+    background-color: #3f4451;
+    color: white;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background-color: black;
+    /* border: 1px solid black; */
+}
+
+.button-74 {
+    background-color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-weight: 900;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: inset -2px 5px 10px grey;
+}
+
+.button-74:hover {
+    box-shadow: inset -2px 5px 10px white;
+
+}
+
+
+#footer {
+    background-color: #1a1a1a;
+}
+
+#footer #footerSocialLinks {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+#footer #footerSocialLinks a {
+    color: #afb1b6;
+    display: inline-block;
+    height: 65px;
+    width: 65px;
+    border: 1px solid #1a1a1a;
+    border-radius: 50%;
+    font-size: 35px;
+    padding: 14px 0;
+    text-align: center;
+}
+
+#footer #footerSocialLinks #github:hover {
+    border: 1px solid white;
+    color: white;
+}
+
+#footer #footerSocialLinks #instagram:hover {
+    border: 1px solid red;
+    color: red;
+}
+
+#footer #footerSocialLinks #facebook:hover {
+    border: 1px solid #1A76F3;
+    color: #1A76F3;
+}
+
+#footer #footerSocialLinks #linkedin:hover {
+    border: 1px solid #0276B4;
+    color: #0276B4;
+}
+
+#footer h1 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.3rem;
+    background-color: black;
+}
+
+
+
+.bn632-hover {
+    width: 160px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.bn632-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.bn632-hover:focus {
+    outline: none;
+}
+
+.bn632-hover.bn25 {
+    background-image: linear-gradient(to right,
+            #29323c,
+            #485563,
+            #2b5876,
+            #4e4376);
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+}
